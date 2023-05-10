@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		8E97CFB32A08FEB300DF421F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E97CFB22A08FEB300DF421F /* AppDelegate.swift */; };
 		8E97CFB52A08FEB300DF421F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E97CFB42A08FEB300DF421F /* SceneDelegate.swift */; };
-		8E97CFB72A08FEB300DF421F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E97CFB62A08FEB300DF421F /* ViewController.swift */; };
-		8E97CFBA2A08FEB300DF421F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E97CFB82A08FEB300DF421F /* Main.storyboard */; };
+		8E97CFB72A08FEB300DF421F /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E97CFB62A08FEB300DF421F /* SignInViewController.swift */; };
 		8E97CFBC2A08FEB500DF421F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E97CFBB2A08FEB500DF421F /* Assets.xcassets */; };
 		8E97CFBF2A08FEB500DF421F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E97CFBD2A08FEB500DF421F /* LaunchScreen.storyboard */; };
+		8E97CFCE2A092F0400DF421F /* ConfigurationUI .swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E97CFCD2A092F0400DF421F /* ConfigurationUI .swift */; };
+		8E97CFD02A0937EE00DF421F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E97CFCF2A0937EE00DF421F /* SignUpViewController.swift */; };
+		8E97CFD22A0A4E8C00DF421F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E97CFD12A0A4E8C00DF421F /* GoogleService-Info.plist */; };
+		8E97CFD52A0AA83B00DF421F /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E97CFD42A0AA83B00DF421F /* AuthManager.swift */; };
+		8E97CFD82A0AB0FE00DF421F /* RegisterUserRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E97CFD72A0AB0FE00DF421F /* RegisterUserRequest.swift */; };
+		D3598084D76E7C6D81530D6D /* Pods_DailyDo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65961C2DA7383BBEB344824F /* Pods_DailyDo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10AB8D4BF03B2043A00189EE /* Pods-DailyDo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyDo.debug.xcconfig"; path = "Target Support Files/Pods-DailyDo/Pods-DailyDo.debug.xcconfig"; sourceTree = "<group>"; };
+		65961C2DA7383BBEB344824F /* Pods_DailyDo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DailyDo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E97CFAF2A08FEB300DF421F /* DailyDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E97CFB22A08FEB300DF421F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E97CFB42A08FEB300DF421F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8E97CFB62A08FEB300DF421F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8E97CFB92A08FEB300DF421F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E97CFB62A08FEB300DF421F /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		8E97CFBB2A08FEB500DF421F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E97CFBE2A08FEB500DF421F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E97CFC02A08FEB500DF421F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E97CFCD2A092F0400DF421F /* ConfigurationUI .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ConfigurationUI .swift"; sourceTree = "<group>"; };
+		8E97CFCF2A0937EE00DF421F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		8E97CFD12A0A4E8C00DF421F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8E97CFD42A0AA83B00DF421F /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		8E97CFD72A0AB0FE00DF421F /* RegisterUserRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUserRequest.swift; sourceTree = "<group>"; };
+		93DD03EA2D6390E39F931478 /* Pods-DailyDo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DailyDo.release.xcconfig"; path = "Target Support Files/Pods-DailyDo/Pods-DailyDo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3598084D76E7C6D81530D6D /* Pods_DailyDo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10D2354110D87D6F67BB2804 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65961C2DA7383BBEB344824F /* Pods_DailyDo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F384F4616CA23F9F9981EF8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10AB8D4BF03B2043A00189EE /* Pods-DailyDo.debug.xcconfig */,
+				93DD03EA2D6390E39F931478 /* Pods-DailyDo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8E97CFA62A08FEB300DF421F = {
 			isa = PBXGroup;
 			children = (
 				8E97CFB12A08FEB300DF421F /* DailyDo */,
 				8E97CFB02A08FEB300DF421F /* Products */,
+				6F384F4616CA23F9F9981EF8 /* Pods */,
+				10D2354110D87D6F67BB2804 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +88,91 @@
 		8E97CFB12A08FEB300DF421F /* DailyDo */ = {
 			isa = PBXGroup;
 			children = (
+				8E97CFD32A0AA82200DF421F /* Service */,
+				8E97CFC92A0908A000DF421F /* Presentor */,
+				8E97CFC82A09089A00DF421F /* View */,
+				8E97CFC72A09088D00DF421F /* Model */,
+				8E97CFCC2A092ECE00DF421F /* ConfigurationUI */,
+				8E97CFC62A09088100DF421F /* App */,
+				8E97CFCA2A0908D700DF421F /* Resources */,
+			);
+			path = DailyDo;
+			sourceTree = "<group>";
+		};
+		8E97CFC62A09088100DF421F /* App */ = {
+			isa = PBXGroup;
+			children = (
 				8E97CFB22A08FEB300DF421F /* AppDelegate.swift */,
 				8E97CFB42A08FEB300DF421F /* SceneDelegate.swift */,
-				8E97CFB62A08FEB300DF421F /* ViewController.swift */,
-				8E97CFB82A08FEB300DF421F /* Main.storyboard */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8E97CFC72A09088D00DF421F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8E97CFD72A0AB0FE00DF421F /* RegisterUserRequest.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8E97CFC82A09089A00DF421F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8E97CFCB2A090A4100DF421F /* AuthViewController */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8E97CFC92A0908A000DF421F /* Presentor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presentor;
+			sourceTree = "<group>";
+		};
+		8E97CFCA2A0908D700DF421F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8E97CFD12A0A4E8C00DF421F /* GoogleService-Info.plist */,
 				8E97CFBB2A08FEB500DF421F /* Assets.xcassets */,
 				8E97CFBD2A08FEB500DF421F /* LaunchScreen.storyboard */,
 				8E97CFC02A08FEB500DF421F /* Info.plist */,
 			);
-			path = DailyDo;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8E97CFCB2A090A4100DF421F /* AuthViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8E97CFB62A08FEB300DF421F /* SignInViewController.swift */,
+				8E97CFCF2A0937EE00DF421F /* SignUpViewController.swift */,
+			);
+			path = AuthViewController;
+			sourceTree = "<group>";
+		};
+		8E97CFCC2A092ECE00DF421F /* ConfigurationUI */ = {
+			isa = PBXGroup;
+			children = (
+				8E97CFCD2A092F0400DF421F /* ConfigurationUI .swift */,
+			);
+			path = ConfigurationUI;
+			sourceTree = "<group>";
+		};
+		8E97CFD32A0AA82200DF421F /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				8E97CFD62A0AA84100DF421F /* AuthManager */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		8E97CFD62A0AA84100DF421F /* AuthManager */ = {
+			isa = PBXGroup;
+			children = (
+				8E97CFD42A0AA83B00DF421F /* AuthManager.swift */,
+			);
+			path = AuthManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E97CFC32A08FEB500DF421F /* Build configuration list for PBXNativeTarget "DailyDo" */;
 			buildPhases = (
+				5E6E3965265DCDD004ACA012 /* [CP] Check Pods Manifest.lock */,
 				8E97CFAB2A08FEB300DF421F /* Sources */,
 				8E97CFAC2A08FEB300DF421F /* Frameworks */,
 				8E97CFAD2A08FEB300DF421F /* Resources */,
+				D20DF0F8850F15C459004403 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +237,72 @@
 			files = (
 				8E97CFBF2A08FEB500DF421F /* LaunchScreen.storyboard in Resources */,
 				8E97CFBC2A08FEB500DF421F /* Assets.xcassets in Resources */,
-				8E97CFBA2A08FEB300DF421F /* Main.storyboard in Resources */,
+				8E97CFD22A0A4E8C00DF421F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E6E3965265DCDD004ACA012 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DailyDo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D20DF0F8850F15C459004403 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DailyDo/Pods-DailyDo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DailyDo/Pods-DailyDo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DailyDo/Pods-DailyDo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8E97CFAB2A08FEB300DF421F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E97CFB72A08FEB300DF421F /* ViewController.swift in Sources */,
+				8E97CFB72A08FEB300DF421F /* SignInViewController.swift in Sources */,
 				8E97CFB32A08FEB300DF421F /* AppDelegate.swift in Sources */,
+				8E97CFD52A0AA83B00DF421F /* AuthManager.swift in Sources */,
 				8E97CFB52A08FEB300DF421F /* SceneDelegate.swift in Sources */,
+				8E97CFCE2A092F0400DF421F /* ConfigurationUI .swift in Sources */,
+				8E97CFD02A0937EE00DF421F /* SignUpViewController.swift in Sources */,
+				8E97CFD82A0AB0FE00DF421F /* RegisterUserRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8E97CFB82A08FEB300DF421F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8E97CFB92A08FEB300DF421F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8E97CFBD2A08FEB500DF421F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,16 +430,17 @@
 		};
 		8E97CFC42A08FEB500DF421F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10AB8D4BF03B2043A00189EE /* Pods-DailyDo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DailyDo/Info.plist;
+				INFOPLIST_FILE = DailyDo/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -309,16 +458,17 @@
 		};
 		8E97CFC52A08FEB500DF421F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93DD03EA2D6390E39F931478 /* Pods-DailyDo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DailyDo/Info.plist;
+				INFOPLIST_FILE = DailyDo/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
